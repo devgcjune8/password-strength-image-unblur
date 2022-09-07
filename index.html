@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.8.2/tailwind.min.css" integrity="sha512-+/95pvtN7AfR4cmVHo1q3K+zjgKFd4e05glVwGheq+GTxMZhCeQ2cbN/Rd76LXpD3OO3Yl7Z5s53ELIvTleAug==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="background"></div>
+    <div class="wrapper bg-white rounded p-10 text-center shadow-md"><h1 class="text-3xl">Password Strength by Image Blur</h1>
+    <p class="text-sm text-blue-800">Lengthen the password to see the clear image</p>
+    <div class="my-4 text-left">
+        <label for="email" class="text-pink-900">Email:</label>
+        <input type="text" class="border block w-full p-2 mt-2 rounded" id="email-box" placeholder="Enter your email here">
+        
+    </div>
+    <div class="my-4 text-left">
+        <label for="password" class="text-pink-900">Password:</label>
+        <input type="text" class="border block w-full p-2 mt-2 rounded" id="password-box" placeholder="Enter your password here">
+    </div>
+
+    <button class="text-blue-800 py-2 mt-3 inline-block w-full rounded" type="submit">Submit</button>
+</div>
+    <script src="./main.js"></script>
+</body>
+</html>
